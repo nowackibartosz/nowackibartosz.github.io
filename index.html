@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple pizza calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Which pizza is more profitable?</h1>
+      <div id="pizzaplanet">
+        <div id="pizza1" class="pizza">
+          <p>Diameter:</p>
+          <input
+            type="number"
+            id="in1D"
+            placeholder="diameter in cm"
+            class="inputo"
+          />
+          <p>Cost:</p>
+          <input
+            type="number"
+            id="in1C"
+            placeholder="cost of pizza"
+            class="inputo"
+          />
+          <p>Amount:</p>
+          <input
+            type="number"
+            id="in1A"
+            placeholder="amount of pizza"
+            class="inputo"
+          />
+
+          <p id="wynik">
+            Total area: <br /><span id="tarea1"></span> cm<sup>2</sup>
+          </p>
+          <p>
+            Price for cm<sup>2</sup>:<br />
+            <span id="ppc1">-</span>
+          </p>
+        </div>
+        <div id="pizza2" class="pizza">
+          <p>Diameter:</p>
+          <input
+            type="number"
+            id="in2D"
+            placeholder="diameter in cm"
+            class="inputo"
+          />
+          <p>Cost:</p>
+          <input
+            type="number"
+            id="in2C"
+            placeholder="cost of pizza"
+            class="inputo"
+          />
+          <p>Amount:</p>
+          <input
+            type="number"
+            id="in2A"
+            placeholder="amount of pizza"
+            class="inputo"
+          />
+
+          <p id="wynik">
+            Total area: <br /><span id="tarea2"></span> cm<sup>2</sup>
+          </p>
+          <p>Price for cm<sup>2</sup>:<br /><span id="ppc2">-</span></p>
+        </div>
+      </div>
+      <button id="button">Check it!</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 700px;
+  height: 600px;
+  background-color: #c9c9c9;
+  border: 2px solid #525252;
+  border-radius: 15px;
+}
+
+div#wrapper h1 {
+  padding-top: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+div#wrapper #pizzaplanet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div#wrapper #pizzaplanet .pizza {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+div#wrapper #pizzaplanet .pizza p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+div#wrapper #pizzaplanet .pizza .inputo {
+  font-size: 18px;
+  text-align: center;
+  line-height: 6px;
+}
+
+div#wrapper #pizzaplanet .pizza #wynik {
+  margin-top: 40px;
+}
+
+div#wrapper #button {
+  width: 200px;
+  display: block;
+  margin: 40px auto;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 39px;
+}
+/*# sourceMappingURL=style.css.map */

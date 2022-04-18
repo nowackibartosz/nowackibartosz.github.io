@@ -1,0 +1,63 @@
+$bg-main-color: rgb(201, 201, 201);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  transition: all 1s ease;
+  box-sizing: border-box;
+}
+
+div#wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 700px;
+  height: 600px;
+  background-color: $bg-main-color;
+  border: 2px solid rgb(82, 82, 82);
+  border-radius: 15px;
+
+  h1 {
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #pizzaplanet {
+    display: flex;
+    justify-content: space-around;
+
+    .pizza {
+      padding: 5px;
+      border-radius: 15px;
+      p {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .inputo {
+        font-size: 18px;
+        text-align: center;
+        line-height: 6px;
+      }
+
+      #wynik {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  #button {
+    width: 200px;
+    display: block;
+    margin: 40px auto;
+
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 39px;
+  }
+}
